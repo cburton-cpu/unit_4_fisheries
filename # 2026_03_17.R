@@ -43,7 +43,7 @@ ggplot(data= lm_4_predict) +
 
 # 2 continuous variable predictors !!!!N ;D
  
-library(car) # vif(), calcuklates variance inflation factor, tests for multi colinearity
+library(car) # vif(), calculates variance inflation factor, tests for multi colinearity
 
 gentoo = penguins %>%
       filter(species == "Gentoo")
